@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#password {
+    width: 300px;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+#strength-bar {
+    width: 300px;
+    height: 20px;
+    margin: 8px 0;
+    background-color: red;
+}
+
+#strength-label {
+    margin: 8px 0;
+}
